@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+
+{% block title %}Моe резюме{% endblock %}
+
+{% block content %}
+    <div class="container my-5">
+        <h1 class="text-center mb-4">Моё резюме</h1>
+        <h2 class="text-center mb-4">Семёнова Ксения</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="col-md-6">
+                    <h2>Образование</h2>
+                    <h4>-Ithub college</h4>
+                    <h4>_________________________</h4>
+                    <h2>Курси (инфоциганство)</h2>
+                    <h4>-Английского языка</h4>
+                    <h4>_________________________</h4>
+                    <h2>Опыт работы</h2>
+                    <h4>-Web dev</h4>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="col-md-6">
+                    <h2>Фотография</h2>
+                    <img src="{{ url_for('static', filename='ks.png') }}" alt="Фотография" width="460" height="460" style="border: 7px solid white;">
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <h2>НАВЫКИ</h2>
+		   <ul class="list-group">
+                    <li class="list-group-item list-group-item-success border-0 py-1"><i class="fa fa-cog"></i> MySQL</li>
+                    <li class="list-group-item list-group-item-info border-0 py-1"><i class="fa fa-cog"></i> PostgreSQL</li>
+                    <li class="list-group-item list-group-item-warning border-0 py-1"><i class="fa fa-cog"></i> Html/css</li>
+                    <li class="list-group-item list-group-item-danger border-0 py-1"><i class="fa fa-cog"></i> C#</li>
+                    <li class="list-group-item list-group-item-success border-0 py-1"><i class="fa fa-cog"></i> MS Office</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h2>ХОББИ</h2>
+                <h4>Танцы</h4>
+                <p class="text-muted mb-0">- Хип-Хоп (маладежна)</p>
+                <p class="text-muted">- Русские народные (не практикую)</p>
+                <h4>Рисование</h4>
+                <p class="text-muted mb-0">- Рисую mind map для Зарали</p>
+                <p class="text-muted">- Векторный дизайн</p>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <h2>КОНТАКТЫ</h2>
+                <p class="mb-0"><i class="fa fa-phone"></i> Телефон: +7(366) 062-36-11</p>
+                <p class="mb-0"><i class="fa fa-envelope"></i> Email: Kssnkx@st.ithub.ru</p>
+                <p class="mb-0"><i class="fa fa-github"> GitHub: <a href="https://github.com/Kssnkx"></i>Kssnkx</a></p>
+            </div>
+            <div class="col-md-6">
+                <h2>ЯЗЫКИ</h2>
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-success border-0 py-1"><i class="fa fa-check-circle"></i> Английский (B2)</li>
+                    <li class="list-group-item list-group-item-success border-0 py-1"><i class="fa fa-check-circle"></i> Русский (родной)</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,33 @@
+body {
+    background-color: #000000;
+}
+.list-group-item-success {
+  color: rgb(0, 0, 0); /* Пример изменения цвета на зелёный */
+  background-color: #f6e1ee; /* Пример цвета фона (зелёный) */
+}
+.list-group-item-info {
+  color: rgb(0, 0, 0); /* Пример изменения цвета на зелёный */
+}
+.list-group-item-warning {
+  color: rgb(0, 0, 0); /* Пример изменения цвета на зелёный */
+}
+.list-group-item-danger {
+  color: rgb(0, 0, 0); /* Пример изменения цвета на зелёный */
+}
+p {
+  color: #ffffff; /* Цвет для текста, например, черный */
+}
+h2 {
+  color: #ffffff; /* Цвет для текста, например, черный */
+}
+h4 {
+  color: #ffffff; /* Цвет для текста, например, черный */
+}
+h1 {
+  color: #ffffff; /* Цвет для текста, например, черный */
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+}
